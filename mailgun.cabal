@@ -21,7 +21,7 @@ library
   -- other-modules:       
   default-extensions:         OverloadedStrings
   build-depends:       base           >=4.6 && <4.7
-                     , text           >=1.0 && <2.0
+                     , text           >=0.11 && <2.0
                      , http-conduit   >=2.0 && <3.0
                      , bytestring
                      , http-client-multipart
