@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                mailgun
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            mailgun http API wrapper
 -- description:         
 homepage:            https://www.github.com/docmunch/haskell-mailgun
@@ -20,7 +20,7 @@ library
   exposed-modules:     Api.MailGun
   -- other-modules:       
   default-extensions:         OverloadedStrings
-  build-depends:       base           >=4.6 && <4.7
+  build-depends:       base           >=4.6 && <5
                      , text           >=0.11 && <2.0
                      , http-conduit   >=2.0 && <3.0
                      , bytestring
