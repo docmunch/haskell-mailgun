@@ -24,7 +24,7 @@ library
                      , text           >=0.11 && <2.0
                      , http-conduit   >=2.0 && <3.0
                      , bytestring
-                     , http-client-multipart
+                     , http-client    >= 0.3
                      , mime-types
                      , mime-mail
                 
